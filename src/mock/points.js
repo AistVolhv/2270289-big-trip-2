@@ -123,7 +123,7 @@ const mockDefaultPoint =
     isFavorite: false,
     offers: [],
     type: 'flight'
-  }
+  };
 
 const getMockPoint = () => mockPoints;
 

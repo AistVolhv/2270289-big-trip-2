@@ -3,8 +3,6 @@ import AbstractStatefulView from '../framework/view/abstract-stateful-view.js';
 import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 
-import {mockDefaultPoint} from '../mock/points.js';
-
 const DATE_FORMAT = 'd/m/y H:i';
 
 function createTemplateOffersForPoint (offersByType,offersIdPoint) {
@@ -300,12 +298,6 @@ export default class EditPointView extends AbstractStatefulView {
       offers: newOffers,
     });
   };
-
-/*
-  #changePointByDestination = (idDest) => {
-    return this.#allDestinations.find((item) => item.id === idDest);
-  };
-*/
 
   reset(point) {
     this.updateElement(EditPointView.parsePointToState(point));
