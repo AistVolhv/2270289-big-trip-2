@@ -31,7 +31,6 @@ export default class BoardPresenter {
   #addPointPresenter = null;
   #filterPresenter = null;
 
-
   #tripInfoComponent = null;
   #sortComponent = null;
   #eventListComponent = new EventsView();

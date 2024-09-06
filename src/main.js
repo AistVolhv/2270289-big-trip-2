@@ -15,7 +15,6 @@ const boardPresenter = new BoardPresenter({
   routeModel,
   filterModel,
   onAddPointDestroy: handleButtonAddPointClose,
-
 });
 
 function handleButtonAddPointClose() {
